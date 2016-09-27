@@ -1,6 +1,6 @@
 package com.example.peter.unofficialholiday;
 
-import android.widget.TextView;
+import com.example.peter.unofficialholiday.Months.Month;
 
 import java.util.Calendar;
 import java.util.HashMap;
@@ -15,13 +15,10 @@ public class DayInfoFinder {
 
     //Finds the day
     public String FindDay(){
-
         int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
-
         Month currentMonth = monthChecker.checkMonth(cal);
         HashMap<Integer, String> monthMap = currentMonth.getDayNumberAndPhraseMap();
 
         return monthMap.get(dayOfMonth);
-
     }
 }

@@ -1,19 +1,20 @@
 package com.example.peter.unofficialholiday;
 
-import java.util.Calendar;
+import com.example.peter.unofficialholiday.Months.April;
+import com.example.peter.unofficialholiday.Months.August;
+import com.example.peter.unofficialholiday.Months.December;
+import com.example.peter.unofficialholiday.Months.February;
+import com.example.peter.unofficialholiday.Months.January;
+import com.example.peter.unofficialholiday.Months.July;
+import com.example.peter.unofficialholiday.Months.June;
+import com.example.peter.unofficialholiday.Months.March;
+import com.example.peter.unofficialholiday.Months.May;
+import com.example.peter.unofficialholiday.Months.Month;
+import com.example.peter.unofficialholiday.Months.November;
+import com.example.peter.unofficialholiday.Months.October;
+import com.example.peter.unofficialholiday.Months.September;
 
-import POJO.April;
-import POJO.August;
-import POJO.December;
-import POJO.February;
-import POJO.January;
-import POJO.July;
-import POJO.June;
-import POJO.March;
-import POJO.May;
-import POJO.November;
-import POJO.October;
-import POJO.September;
+import java.util.Calendar;
 
 /**
  * Created by peter on 12/17/2015.
@@ -21,81 +22,40 @@ import POJO.September;
 public class MonthChecker {
 
     //Checks what month it is based on the get month function
-    public Month checkMonth(Calendar cal){
-        int currentDate = cal.get(Calendar.MONTH)+1;
-        if (currentDate == 1){
+    public Month checkMonth(Calendar cal) {
+        int currentDate = cal.get(Calendar.MONTH) + 1;
+        Month currentMonth = FindCurrentMonthInfoContainer(currentDate);
+        currentMonth.SetMonthInfo();
+        return  currentMonth.GetMonthInfo();
+    }
 
-            January januaryMonth = new January();
-            januaryMonth.SetJanuaryInfo();
-            return januaryMonth.GetJanuaryInfo();
-
-        }else if (currentDate == 2){
-
-            February februaryMonth = new February();
-            februaryMonth.SetFebruaryInfo();
-             return februaryMonth.GetFebruaryInfo();
-
-        }else if (currentDate == 3){
-
-            March marchMonth = new March();
-            marchMonth.SetMarchInfo();
-            return marchMonth.GetMarchInfo();
-
-        }else if (currentDate == 4){
-
-            April aprilMonth = new April();
-            aprilMonth.SetAprilInfo();
-            return aprilMonth.GetAprilInfo();
-
-        }else if (currentDate == 5){
-
-            May mayMonth = new May();
-            mayMonth.SetMayInfo();
-            return mayMonth.GetMayInfo();
-
-        }else if (currentDate == 6){
-
-            June juneMonth = new June();
-            juneMonth.SetJanuaryInfo();
-            return juneMonth.GetJuneMonth();
-
-        }else if (currentDate == 7){
-
-             July julyMonth = new July();
-            julyMonth.SetJulyInfo();
-            return julyMonth.GetJulyInfo();
-
-        }else if (currentDate == 8){
-
-            August augustMonth = new August();
-            augustMonth.SetAugustInfo();
-            return augustMonth.GetAugustInfo();
-
-        }else if (currentDate == 9){
-
-            September septemberMonth = new September();
-            septemberMonth.SetSeptemberInfo();
-            return septemberMonth.GetSeptemberInfo();
-
-        }else if (currentDate == 10){
-
-            October octoberMonth = new October();
-            octoberMonth.SetOctoberInfo();
-            return octoberMonth.GetOctoberInfo();
-
-        }else if (currentDate == 11){
-
-            November novemberMonth = new November();
-            novemberMonth.SetNovemberInfo();
-            return novemberMonth.GetNovemberMonth();
-
-        }else if (currentDate == 12) {
-
-            December decemberMonth = new December();
-            decemberMonth.SetDecemberInfo();
-            return decemberMonth.GetDecemberInfo();
-
-        }
+        private Month FindCurrentMonthInfoContainer(int currentDate){
+            switch (currentDate){
+                case (1):
+                    return new January();
+                case (2):
+                    return new February();
+                case (3):
+                    return new March();
+                case (4):
+                    return new April();
+                case (5):
+                    return new May();
+                case (6):
+                    return new June();
+                case (7):
+                    return new July();
+                case (8):
+                    return new August();
+                case (9):
+                    return new September();
+                case(10):
+                    return new October();
+                case (11):
+                    return new November();
+                case (12):
+                    return new December();
+            }
         return null;
     }
 }

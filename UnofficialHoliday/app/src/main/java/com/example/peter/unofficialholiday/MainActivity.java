@@ -3,16 +3,11 @@ package com.example.peter.unofficialholiday;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.app.NotificationCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.RelativeLayout;
-
 import java.util.Calendar;
-import java.util.HashMap;
-
-import com.plattysoft.leonids.ParticleSystem;
 
 
 public class MainActivity extends ActionBarActivity {

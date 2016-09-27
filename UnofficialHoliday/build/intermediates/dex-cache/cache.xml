@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a5bd641dee93a75f9dabce0b9a3f99919d6191b6">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_425ac565f38ae1995345f12925935990c45a771a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_e7670c14def881133769e4ca179947f9825f71d0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_26dcb1b3558ddd6798a8c314ae70d886d95dd7f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1cd7dc6498bde5a72b4b1149f55eedf8079f6333">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ed1596ffe05ce14a9e62ea3fedc23a3d0e9fbeed\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_59ac78941ee711b605cdfdbbca86b5561d1e6235\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.0_05af64144322aa24516cfabe29ad45c4d3e0b885\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_7fb1aea0f52bd17c8f52a14773489dd235716297\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_c890ad45ff3776d10a8062573422bbfb3a626afa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Howie\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_cb6885a5774a8d4cf9a1853a21bd238e698fd76a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Code\UnofficialHoliday\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_a36c17c7155a900c783280c8faf3adf547f791ac\classes.dex" />
+    </item>
+
+</items>
