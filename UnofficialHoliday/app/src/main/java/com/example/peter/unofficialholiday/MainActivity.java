@@ -7,21 +7,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.RelativeLayout;
-import java.util.Calendar;
+
+import com.example.peter.unofficialholiday.Interfaces.IBackgroundSetter;
+import com.example.peter.unofficialholiday.Interfaces.ICalendar;
+import com.example.peter.unofficialholiday.Interfaces.IDayInfoFinder;
+import com.example.peter.unofficialholiday.Interfaces.IEffectsFactory;
+import com.example.peter.unofficialholiday.Interfaces.IMonthChecker;
 
 
 public class MainActivity extends ActionBarActivity {
 
-    private DayInfoFinder dayInfoFinder = new DayInfoFinder();
-    private BackgroundSetter backgroundSetter = new BackgroundSetter();
-    private final Calendar cal = Calendar.getInstance();
-    private MonthChecker monthChecker = new MonthChecker();
+    private IDayInfoFinder DayInfoFinder;
+    private IBackgroundSetter BackgroundSetter;
+    private IMonthChecker MonthChecker = new MonthChecker();
+    private ICalendar Cal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Init();
      //   AdView mAdView = (AdView) findViewById(R.id.ad_view);
      // AdRequest adRequest = new AdRequest.Builder()
                 //.addTestDevice("YOUR_DEVICE_HASH")
@@ -61,11 +66,19 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void SetUpMonth(){
-        String day = dayInfoFinder.FindDay();
+        String day = DayInfoFinder.FindDay();
         TextView monthInfoTextBox = (TextView)findViewById(R.id.text);
         monthInfoTextBox.setText(day);
 
         RelativeLayout linearLayout = (RelativeLayout) findViewById(R.id.linearLayoutid);
-        backgroundSetter.setBackground(monthChecker.checkMonth(cal), this, linearLayout);
+        BackgroundSetter.SetBackground(MonthChecker.GetMonthInfo(Cal), this, linearLayout);
+    }
+
+    private void Init(){
+        Cal = new com.example.peter.unofficialholiday.Calendar();
+        IEffectsFactory effectsFactory = new EffectsFactory();
+        Constants constants = new Constants();
+        BackgroundSetter = new BackgroundSetter(effectsFactory, constants);
+        DayInfoFinder  = new DayInfoFinder(Cal, MonthChecker);
     }
 }

@@ -2,6 +2,9 @@ package com.example.peter.unofficialholiday;
 
 import android.app.Activity;
 import android.widget.RelativeLayout;
+
+import com.example.peter.unofficialholiday.Interfaces.IBackgroundSetter;
+import com.example.peter.unofficialholiday.Interfaces.IEffectsFactory;
 import com.example.peter.unofficialholiday.Months.Month;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,12 +12,17 @@ import java.util.List;
 /**
  * Created by peter on 12/19/2015.
  */
-public class BackgroundSetter {
+public class BackgroundSetter implements IBackgroundSetter{
 
-    EffectsFactory effectsFactory = new EffectsFactory();
-    Constants constants = new Constants();
+    private IEffectsFactory EffectsFactory;
+    private Constants Constants;
 
-    public void setBackground(Month currentMonth, Activity currentActivity, RelativeLayout linearLayout) {
+    public BackgroundSetter(IEffectsFactory effectsFactory, Constants constants){
+        EffectsFactory = effectsFactory;
+        Constants = constants;
+    }
+
+    public void SetBackground(Month currentMonth, Activity currentActivity, RelativeLayout linearLayout){
         String month = currentMonth.getMonthName();
         Season currentSeason = FindSeason(month);
 
@@ -36,12 +44,12 @@ public class BackgroundSetter {
 
     private void SetSeasonWithTopDownEffects(Activity currentActivity, int backgroundImage, int effectImage, RelativeLayout linearLayout){
         linearLayout.setBackgroundResource(backgroundImage);
-        effectsFactory.AddTopDownEffects(currentActivity, backgroundImage);
+        EffectsFactory.AddTopDownEffects(currentActivity, effectImage);
     }
 
     private void SetSeasonWithSideEffects(Activity currentActivity, int backgroundImage, int effectImage, RelativeLayout linearLayout){
         linearLayout.setBackgroundResource(backgroundImage);
-        effectsFactory.AddSlideEffects(currentActivity, backgroundImage);
+        EffectsFactory.AddSlideEffects(currentActivity, effectImage);
     }
 
     private Season FindSeason(String month) {
@@ -56,25 +64,25 @@ public class BackgroundSetter {
 
     private List<String> WinterMonths() {
         List<String> winterMonths = new ArrayList<>();
-        winterMonths.add(constants.January);
-        winterMonths.add(constants.February);
-        winterMonths.add(constants.December);
+        winterMonths.add(Constants.January);
+        winterMonths.add(Constants.February);
+        winterMonths.add(Constants.December);
         return winterMonths;
     }
 
     private List<String> SpringMonths(){
         List<String> springMonths = new ArrayList<>();
-        springMonths.add(constants.March);
-        springMonths.add(constants.April);
-        springMonths.add(constants.May);
+        springMonths.add(Constants.March);
+        springMonths.add(Constants.April);
+        springMonths.add(Constants.May);
         return springMonths;
     }
 
     private List<String> SummerMonths(){
         List<String> summerMonths = new ArrayList<>();
-        summerMonths.add(constants.June);
-        summerMonths.add(constants.July);
-        summerMonths.add(constants.August);
+        summerMonths.add(Constants.June);
+        summerMonths.add(Constants.July);
+        summerMonths.add(Constants.August);
         return summerMonths;
     }
 }

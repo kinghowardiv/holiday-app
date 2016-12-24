@@ -1,13 +1,13 @@
 package com.example.peter.unofficialholiday;
 
 import android.app.Activity;
-
+import com.example.peter.unofficialholiday.Interfaces.IEffectsFactory;
 import com.plattysoft.leonids.ParticleSystem;
 
 /**
  * Created by Howie on 8/27/2016.
  */
-public class EffectsFactory {
+public class EffectsFactory implements IEffectsFactory {
 
     public void AddTopDownEffects(Activity currentActivity, int effectImage){
         new ParticleSystem(currentActivity, 80, effectImage, 10000)

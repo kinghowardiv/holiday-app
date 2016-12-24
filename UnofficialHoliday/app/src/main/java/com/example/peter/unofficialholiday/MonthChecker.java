@@ -1,5 +1,7 @@
 package com.example.peter.unofficialholiday;
 
+import com.example.peter.unofficialholiday.Interfaces.ICalendar;
+import com.example.peter.unofficialholiday.Interfaces.IMonthChecker;
 import com.example.peter.unofficialholiday.Months.April;
 import com.example.peter.unofficialholiday.Months.August;
 import com.example.peter.unofficialholiday.Months.December;
@@ -14,16 +16,14 @@ import com.example.peter.unofficialholiday.Months.November;
 import com.example.peter.unofficialholiday.Months.October;
 import com.example.peter.unofficialholiday.Months.September;
 
-import java.util.Calendar;
-
 /**
  * Created by peter on 12/17/2015.
  */
-public class MonthChecker {
+public class MonthChecker implements IMonthChecker{
 
-    //Checks what month it is based on the get month function
-    public Month checkMonth(Calendar cal) {
-        int currentDate = cal.get(Calendar.MONTH) + 1;
+
+    public Month GetMonthInfo(ICalendar cal) {
+        int currentDate = cal.GetCurrentMonth()+ 1;
         Month currentMonth = FindCurrentMonthInfoContainer(currentDate);
         currentMonth.SetMonthInfo();
         return  currentMonth.GetMonthInfo();
