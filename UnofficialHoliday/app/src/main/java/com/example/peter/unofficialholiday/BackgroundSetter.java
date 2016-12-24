@@ -28,7 +28,7 @@ public class BackgroundSetter implements IBackgroundSetter{
 
         switch (currentSeason) {
             case SPRING:
-                SetSeasonWithTopDownEffects(currentActivity, R.drawable.winter, R.drawable.snowflake2, linearLayout);
+                SetSeasonWithTopDownEffects(currentActivity, R.drawable.winterbackground, R.drawable.snowflake2, linearLayout);
                 break;
             case SUMMER:
                 SetSeasonWithTopDownEffects(currentActivity, R.drawable.summer, R.drawable.ball, linearLayout);

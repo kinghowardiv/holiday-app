@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ce9cd95bd139d1471e73e08aca991a1bd257f76e">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_335a3640d5d50c3bd906f154a2d532096efde810\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.0_9b712f192e7b40292655378be650b59dc243fcfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e2051d7497693b2180866ff0dfcc181e1b6454e8">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c1c0fd07768227bbc6fe029231d5cbb7f27b8e01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_a1dca798da99be557e83afd54ae469c5857c8189\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_c14ffc9e2205f415900338aeafc954fc8e92053b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_7f4666100f9046e61b3b3144e10fb4ab6dfaaafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_7e3ad8e152522191ca64654fbbe9c2545ac2ed90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_6bf35304bcf76c776a5ca59e81840863adfe28e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_7568c7c3228bb09d8ef9170bbfcf5cd7ecd701f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\peter\Documents\GitHub\holiday-app\UnofficialHoliday\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_7174b2ecb99f4836cce02797fb2c10805b6cd6fb\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+#Sat Dec 24 17:30:42 EST 2016
+base.0=C\:\\Users\\peter\\Documents\\GitHub\\holiday-app\\UnofficialHoliday\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_335a3640d5d50c3bd906f154a2d532096efde810
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\peter\\Documents\\GitHub\\holiday-app\\UnofficialHoliday\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c1c0fd07768227bbc6fe029231d5cbb7f27b8e01\\classes.dex
+base.1=C\:\\Users\\peter\\Documents\\GitHub\\holiday-app\\UnofficialHoliday\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c1c0fd07768227bbc6fe029231d5cbb7f27b8e01
+file.0=C\:\\Users\\peter\\Documents\\GitHub\\holiday-app\\UnofficialHoliday\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_335a3640d5d50c3bd906f154a2d532096efde810\\classes.dex

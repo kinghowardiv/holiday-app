@@ -580,11 +580,12 @@ int drawable design_fab_background 0x7f02004f
 int drawable design_snackbar_background 0x7f020050
 int drawable fall 0x7f020051
 int drawable leaf 0x7f020052
-int drawable notification_template_icon_bg 0x7f020057
+int drawable notification_template_icon_bg 0x7f020058
 int drawable snowflake2 0x7f020053
 int drawable spring 0x7f020054
 int drawable summer 0x7f020055
 int drawable winter 0x7f020056
+int drawable winterbackground 0x7f020057
 int id action0 0x7f0c0077
 int id action_bar 0x7f0c005a
 int id action_bar_activity_content 0x7f0c0000
